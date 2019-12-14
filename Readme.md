@@ -1,4 +1,4 @@
-# Pilares da Orientação a objeto #
+# Pilares da orientação a objeto #
 * Abstração
 * Encapsulamento
 * Herança
