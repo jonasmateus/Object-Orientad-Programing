@@ -11,24 +11,24 @@
     }
 
 
-    function SelectElement () {
+    function SelectHtmlElement () {
         
         this.item = []
-        Object.defineProperty(SelectElement.prototype, "addItems", {
+        Object.defineProperty(SelectHtmlElement.prototype, "addItems", {
             set: (e) => this.item.push(e)
         })
-        Object.defineProperty(SelectElement.prototype, "removeItems", {
+        Object.defineProperty(SelectHtmlElement.prototype, "removeItems", {
             set: (param) => this.item = this.item.filter ( e => e != param )
         })
         
     }  
 
-    SelectElement.prototype = new HtmlElement()
+    SelectHtmlElement.prototype = new HtmlElement()
 
 
     let e = new HtmlElement()
 
-    let s = new SelectElement()
+    let s = new SelectHtmlElement()
 
 
 
