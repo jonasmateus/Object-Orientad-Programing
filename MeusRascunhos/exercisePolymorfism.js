@@ -37,3 +37,4 @@ let img = new SelectImageElement("http://")
 let array = [s,img]
 array.forEach(e => console.log(e.render()))
 
+
